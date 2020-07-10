@@ -1,6 +1,4 @@
-package Code_With_Mosh;
-
-import java.util.Arrays;
+package Code_With_Imtiaz;
 
 public class Array_prac {
     public static void main(String[] args) {

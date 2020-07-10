@@ -1,4 +1,4 @@
-package Code_With_Mosh;
+package Code_With_Imtiaz;
 
 public class Array {
     int[] array;

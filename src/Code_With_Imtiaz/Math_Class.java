@@ -1,4 +1,4 @@
-package Code_With_Mosh;
+package Code_With_Imtiaz;
 
 public class Math_Class {
     public static void main(String[] args) {
