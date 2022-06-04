@@ -1,4 +1,4 @@
-package Problem_Practice.Lambda_Expression.O4_PersonList_Practice;
+package Problem_Practice.Lambda_Expression.O4_PersonObjectList;
 
 public class Person {
     private String firstName;
