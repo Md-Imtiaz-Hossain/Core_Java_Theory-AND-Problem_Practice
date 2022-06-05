@@ -14,3 +14,5 @@ B. Theory covered
 
 Resource-
 1. https://youtube.com/playlist?list=PLqq-6Pq4lTTa9YGfyhyW2CqdtW9RtY-I3
+2. https://github.com/koushikkothagal 
+3. https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html

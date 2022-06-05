@@ -1,6 +1,5 @@
 package Problem_Practice.Lambda_Expression.O6_IterationWithLambda;
 
-import Problem_Practice.Lambda_Expression.O4_PersonObjectList.Person;
 
 import java.util.Arrays;
 import java.util.List;
