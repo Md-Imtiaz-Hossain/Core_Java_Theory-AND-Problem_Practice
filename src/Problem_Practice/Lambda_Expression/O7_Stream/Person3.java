@@ -5,10 +5,21 @@ public class Person3 {
     private String lastName;
     private int age;
 
-    public Person3(String firstName, String lastName, int age) {
+    private Gender gender;
+
+    public Person3(String firstName, String lastName, int age, Gender gender) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;
+        this.gender = gender;
+    }
+
+    public Gender getGender() {
+        return gender;
+    }
+
+    public void setGender(Gender gender) {
+        this.gender = gender;
     }
 
     public String getFirstName() {
@@ -37,10 +48,11 @@ public class Person3 {
 
     @Override
     public String toString() {
-        return "Person{" +
+        return "Person3{" +
                 "firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", age=" + age +
+                ", gender=" + gender +
                 '}';
     }
 }
