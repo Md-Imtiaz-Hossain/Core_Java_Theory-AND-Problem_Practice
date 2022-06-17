@@ -11,6 +11,7 @@ public class S_2 {
 
         int[] array = {1, 2, 3, 4, 5};
 
+        // ========================== Without Lambda =================================
         int sum = 0;
         for (int i = 0; i < array.length; i++) {
             if (array[i] * array[i] > 3) {
@@ -21,6 +22,7 @@ public class S_2 {
         System.out.println("Sum- " + sum);
 
 
+        // ========================== With Lambda =================================
         Arrays.stream(array).map(x -> x * x).filter((z) -> z > 3).forEach(x -> System.out.println(x));
         System.out.println("Sum- " + Arrays.stream(array).map(x -> x * x).filter((z) -> z > 3).sum());
     }
