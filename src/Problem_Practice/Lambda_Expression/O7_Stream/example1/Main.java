@@ -9,7 +9,7 @@ public class Main {
     public static void main(String[] args) {
 
         List<String> names = Arrays.asList("Reflection","Collection","Stream");
-        //List names = Arrays.asList("Reflection","Collection","Stream");
+        //List names = Arrays.asList("Reflection","Collection","Stream"); // Must be define type in diamond braces
         //List result = names.stream().filter(s -> s.startsWith("S")).collect(Collectors.toList());
         List result = names.stream().filter(s -> s.contains("Stream")).collect(Collectors.toList());
         System.out.println(result);
